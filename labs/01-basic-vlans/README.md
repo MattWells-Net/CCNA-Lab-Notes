@@ -9,10 +9,10 @@ Configure VLANs on a Cisco switch to logically separate network traffic between 
 ## Topology
 
 ### Logical Topology
-![Logical Topology](diagrams\Lab-01-Connected-Topology.png)
+![Logical Topology](diagrams/Lab-01-Connected-Topology.png)
 
-### Physical Topology
-![Physical Topology Example ](diagrams\Lab-01-Physical-Topology-Example.png)
+### Example Physical Topology
+![Physical Topology Example ](diagrams/Lab-01-Physical-Topology-Example.png)
 
 ## Equipment Used
 - 1x Cisco vIOS L2 Switch
@@ -113,7 +113,7 @@ SW1#
 - ✅ VPC1 CANNOT ping VPC3 (different VLANs)
 - ✅ VPC2 CANNOT ping VPC4 (different VLANs)
 
-![Testing Results](diagrams\Lab-01-Final-Testing.png)
+![Testing Results](diagrams/Lab-01-Final-Testing.png)
 
 ## Troubleshooting/What broke
 No issues from the Cisco IOS side of the configuration, however a few EVE-NG issues which are worth mentioning.
@@ -140,9 +140,9 @@ Came accross the following reddit post during the process, but saw no one provid
 - Not saving configuration with `write` or `copy running config startup config`
 
 ## Files
-- [Switch Configuration](configs\SW1-config.txt)
-- [Physical Topology Diagram](diagrams\Lab-01-Physical-Topology-Example.png)
-- [Testing Screenshots](diagrams\Lab-01-Final-Testing.png)
+- [Switch Configuration](configs/SW1-config.txt)
+- [Physical Topology Diagram](diagrams/Lab-01-Physical-Topology-Example.png)
+- [Testing Screenshots](diagrams/Lab-01-Final-Testing.png)
 
 ## Next Steps
 - Lab 2: VLAN Trunking between multiple switches
