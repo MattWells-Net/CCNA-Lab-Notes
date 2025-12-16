@@ -11,7 +11,7 @@ Configure VLANs on a Cisco switch to logically separate network traffic between 
 ### Logical Topology
 ![Logical Topology](diagrams/Lab-01-Connected-Topology.png)
 
-### Physical Topology
+### Example Physical Topology
 ![Physical Topology Example ](diagrams/Lab-01-Physical-Topology-Example.png)
 
 ## Equipment Used
