@@ -185,14 +185,14 @@ SW2#
 ### Expected Behavior (without trunk)
 - ✅ VPC1 can ping VPC2 (same VLAN)
 - ✅ VPC3 can ping VPC4 (same VLAN)
-- ✅ VPC1 CANNOT ping VPC3 (different VLANs)
-- ✅ VPC2 CANNOT ping VPC4 (different VLANs)
-- ✅ VPC1 CANNOT ping VPC5 (same VLANs but no trunk)
-- ✅ VPC3 CANNOT ping VPC6 (same VLANs but no trunk)
+- ✅ VPC1 CANNOT ping VPC3 (different VLAN)
+- ✅ VPC2 CANNOT ping VPC4 (different VLAN)
+- ✅ VPC1 CANNOT ping VPC5 (same VLAN but no trunk)
+- ✅ VPC3 CANNOT ping VPC6 (same VLAN but no trunk)
 
 ### Expected Behavior (with trunk)
-- ✅ VPC1 can ping VPC2 and VPC5 (same VLAN and accross trunk)
-- ✅ VPC3 can ping VPC4 and VPC6 (same VLAN and accross trunk)
+- ✅ VPC1 can ping VPC2 and VPC5 (same VLAN and across trunk)
+- ✅ VPC3 can ping VPC4 and VPC6 (same VLAN and across trunk)
 
 ![Testing Results](diagrams/Lab-02-Trunk-Testing.png)
 
