@@ -19,8 +19,8 @@ This repo contains documented labs from my CCNA study. Each lab includes:
 ## Progress Tracker
 
 ### Completed Labs ✅
-- [x] [Lab 01: Basic VLAN Configuration](labs/01-basic-vlans/) (2024-12-14)
-- [x] [Lab 02: VLAN Trunking](labs/02-vlan-trunking/) (2024-12-16)
+- [x] [Lab 01: Basic VLAN Configuration](01-basic-vlans/) (2024-12-14)
+- [x] [Lab 02: VLAN Trunking](02-vlan-trunking/) (2024-12-16)
 
 ### Planned Labs 📋
 - [ ] Lab 03: VLAN Troubleshooting
