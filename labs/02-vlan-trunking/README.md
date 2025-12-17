@@ -241,6 +241,13 @@ Then I could set the trunk.
 - `show vlan brief` - Quick check of VLAN-to-port assignments
 - `show interfaces status` - See which ports are in trunk mode vs access mode
 
+- ## Time to Complete
+- Topology setup: 20 minutes
+- Configuration: 30 minutes
+- Testing and troubleshooting: 25 minutes
+- Documentation: 45 minutes
+- **Total: ~2 hours**
+
 ## Next Steps
 - Lab 3: VLAN troubleshooting scenarios
 - Lab 4: Inter-VLAN routing (router-on-a-stick)
